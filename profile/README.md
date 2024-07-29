@@ -4,12 +4,12 @@
 | ---------- | -------- | ------ | -------- |
 | [accessful-discovery-service](https://github.com/Accessful-AI/accessful-discovery-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-12 12:30:19 |
 | [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-27 14:46:39 |
-| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Failure](https://img.shields.io/badge/Failure-red) | 2024-07-28 08:54:06 |
-| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Failure](https://img.shields.io/badge/Failure-red) | 2024-07-28 08:54:12 |
+| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-28 08:54:06 |
+| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-28 08:54:12 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-27 19:26:15 |
 | [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-27 14:46:19 |
 | [demo-repository](https://github.com/Accessful-AI/demo-repository) | Proof HTML | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-26 13:03:12 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-29 09:41:44 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-29 09:46:04 |
 
 
-*Last updated: 2024-07-29 09:46:32*
+*Last updated: 2024-07-29 10:09:13*

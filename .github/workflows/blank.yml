@@ -1,0 +1,84 @@
+name: Update Dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'  # Runs every 15 minutes
+
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+      checks: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub
+
+      - name: Update dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORGANIZATION_NAME: your-organization
+        run: |
+          python - <<EOF
+          import os
+          from github import Github
+          from datetime import datetime
+
+          # Initialize GitHub client
+          g = Github(os.environ['DASHBOARD_TOKEN'])
+          
+          # Get the organization
+          org = g.get_organization("$ORGANIZATION_NAME")
+
+          # Get all repositories in the organization
+          repos = org.get_repos()
+
+          # Prepare the dashboard content
+          dashboard = "# CI/CD Dashboard\n\n"
+          dashboard += "| Repository | Workflow | Status | Last Run |\n"
+          dashboard += "| ---------- | -------- | ------ | -------- |\n"
+          
+          for repo in repos:
+              workflows = repo.get_workflows()
+              for workflow in workflows:
+                  runs = workflow.get_runs(status='completed')
+                  if runs.totalCount > 0:
+                      latest_run = runs[0]
+                      status = latest_run.conclusion.lower()
+                      
+                      # Create status badge
+                      if status == 'success':
+                          badge = f"![Success](https://img.shields.io/badge/Success-brightgreen)"
+                      elif status == 'failure':
+                          badge = f"![Failure](https://img.shields.io/badge/Failure-red)"
+                      else:
+                          badge = f"![{status.capitalize()}](https://img.shields.io/badge/{status.capitalize()}-yellow)"
+                      
+                      # Format last run date
+                      last_run = latest_run.created_at.strftime("%Y-%m-%d %H:%M:%S")
+                      
+                      dashboard += f"| [{repo.name}]({repo.html_url}) | {workflow.name} | {badge} | {last_run} |\n"
+          
+          # Add update timestamp
+          dashboard += f"\n\n*Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*"
+
+          # Update the README.md file
+          repo = g.get_repo("$ORGANIZATION_NAME/.github")
+          contents = repo.get_contents("profile/README.md")
+          repo.update_file(contents.path, "Update dashboard", dashboard, contents.sha)
+
+          print("Dashboard updated successfully!")
+          EOF

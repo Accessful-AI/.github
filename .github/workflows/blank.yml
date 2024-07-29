@@ -29,7 +29,7 @@ jobs:
 
       - name: Update dashboard
         env:
-          DASHBOARD_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORGANIZATION_NAME: your-organization
         run: |
           python - <<EOF
@@ -38,7 +38,7 @@ jobs:
           from datetime import datetime
 
           # Initialize GitHub client
-          g = Github(os.environ['DASHBOARD_TOKEN'])
+          g = Github(os.environ['GITHUB_TOKEN'])
           
           # Get the organization
           org = g.get_organization("$ORGANIZATION_NAME")

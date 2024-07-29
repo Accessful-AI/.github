@@ -29,7 +29,7 @@ jobs:
 
       - name: Update dashboard
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
           ORGANIZATION_NAME: Accessful-AI
         run: |
           python - <<EOF

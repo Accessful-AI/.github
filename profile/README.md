@@ -6,9 +6,9 @@
 | [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-27 14:46:39 |
 | [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-28 08:54:06 |
 | [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-28 08:54:12 |
-| [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-27 19:26:15 |
+| [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Failure](https://img.shields.io/badge/Failure-red) | 2024-07-30 14:51:21 |
 | [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-27 14:46:19 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-30 14:32:38 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2024-07-30 14:46:22 |
 
 
-*Last updated: 2024-07-30 14:46:51*
+*Last updated: 2024-07-30 15:08:06*

@@ -1,3 +1,7 @@
+# Planning & Wiki
+
+https://github.com/Accessful-AI/accessful-ui/discussions
+
 # CI/CD Dashboard
 
 | Repository | Workflow | Status | Last Run |

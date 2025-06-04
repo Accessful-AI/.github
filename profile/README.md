@@ -16,6 +16,6 @@
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-06-04 14:58:50 |
 | [accessful-pdfua-service](https://github.com/Accessful-AI/accessful-pdfua-service) | Gradle Package | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-06-01 11:06:40 |
 | [accessful-summary-service](https://github.com/Accessful-AI/accessful-summary-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-06-04 14:21:39 |
-
+| [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-06-04 14:21:39 |
 
 *Last updated: 2025-06-04 18:33:13*

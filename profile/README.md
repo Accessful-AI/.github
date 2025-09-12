@@ -8,8 +8,8 @@
 | [accessful-api-documentation](https://github.com/Accessful-AI/accessful-api-documentation) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | E2E Tests from Other Repositories | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-12 12:12:32 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Failure](https://img.shields.io/badge/Failure-red) | 2025-09-12 12:05:21 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-12 12:19:53 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-12 12:19:10 |
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-12 11:44:03 |
 | [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | Java CI & Docker for accessful-language-service | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2025-09-11 19:06:24 |
 | [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-10 15:58:55 |
@@ -27,4 +27,4 @@
 | [accessful-pdfua-service](https://github.com/Accessful-AI/accessful-pdfua-service) | Gradle Package | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-06-27 16:09:22 |
 
 
-*Last updated: 2025-09-12 12:19:07*
+*Last updated: 2025-09-12 15:04:47*

@@ -34,53 +34,95 @@ jobs:
         run: |
           python - <<EOF
           import os
-          from github import Github
+          from github import Github, GithubException
           from datetime import datetime
-
-          # Initialize GitHub client
-          g = Github(os.environ['GITHUB_TOKEN'])
           
-          # Get the organization
-          org = g.get_organization(os.environ['ORGANIZATION_NAME'])
-
-          # Prepare the dashboard content
+          g = Github(os.environ['GITHUB_TOKEN'])
+          org_name = os.environ['ORGANIZATION_NAME']
+          pinned = [r.strip() for r in os.environ.get('PINNED_REPOS', '').split(',') if r.strip()]
+          
+          org = g.get_organization(org_name)
+          
           dashboard = "# CI/CD Dashboard\n\n"
           dashboard += "| Repository | Workflow | Status | Last Run |\n"
           dashboard += "| ---------- | -------- | ------ | -------- |\n"
           
-          for repo in org.get_repos():
-              for workflow in repo.get_workflows():
-                  # Skip any Dependabot-Workflows
-                  if "Dependabot" in workflow.name:
-                      continue
-
-                  runs = workflow.get_runs(status='completed')
-                  if runs.totalCount == 0:
-                      continue
-
-                  latest_run = runs[0]
-                  status = latest_run.conclusion.lower()
-                  
-                  # Create status badge
-                  if status == 'success':
-                      badge = "![Success](https://img.shields.io/badge/Success-brightgreen)"
-                  elif status == 'failure':
-                      badge = "![Failure](https://img.shields.io/badge/Failure-red)"
-                  else:
-                      badge = f"![{status.capitalize()}](https://img.shields.io/badge/{status.capitalize()}-yellow)"
-                  
-                  # Format last run date
-                  last_run = latest_run.created_at.strftime("%Y-%m-%d %H:%M:%S")
-                  
-                  dashboard += f"| [{repo.name}]({repo.html_url}) | {workflow.name} | {badge} | {last_run} |\n"
+          def badge_for(status: str) -> str:
+              s = (status or "—").lower()
+              if s == 'success':
+                  return "![Success](https://img.shields.io/badge/Success-brightgreen)"
+              if s in ('failure', 'failed'):
+                  return "![Failure](https://img.shields.io/badge/Failure-red)"
+              if s in ('cancelled', 'canceled'):
+                  return "![Cancelled](https://img.shields.io/badge/Cancelled-lightgrey)"
+              if s in ('in_progress', 'queued', 'requested'):
+                  return f"![{s.replace('_',' ').title()}](https://img.shields.io/badge/{s.replace('_','%20').title()}-yellow)"
+              if s == 'no runs':
+                  return "![No Runs](https://img.shields.io/badge/No%20Runs-grey)"
+              return f"![{s.title()}](https://img.shields.io/badge/{s.title()}-yellow)"
           
-          # Add update timestamp
-          dashboard += f"\n\n*Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*"
-
-          # Write back to the central README
-          settings_repo = g.get_repo(f"{os.environ['ORGANIZATION_NAME']}/.github")
+          rows = []
+          
+          # Org-Repos
+          repos = {r.name: r for r in org.get_repos()}
+          
+          # Pinned Repos sicherstellen (auch wenn Actions nicht lesbar sind)
+          for name in pinned:
+              full = f"{org_name}/{name}"
+              try:
+                  repos.setdefault(name, g.get_repo(full))
+              except GithubException:
+                  rows.append((None, f"[{name}](https://github.com/{full})", "—", badge_for("—"), "—"))
+          
+          for repo in repos.values():
+              try:
+                  workflows = list(repo.get_workflows())
+              except GithubException:
+                  rows.append((None, f"[{repo.name}]({repo.html_url})", "—", badge_for("—"), "—"))
+                  continue
+          
+              if not workflows:
+                  rows.append((None, f"[{repo.name}]({repo.html_url})", "—", badge_for("no runs"), "—"))
+                  continue
+          
+              for wf in workflows:
+                  if "Dependabot" in (wf.name or ""):
+                      continue
+          
+                  latest_dt = None
+                  status_text = "no runs"
+          
+                  try:
+                      completed = wf.get_runs(status='completed')
+                      if completed.totalCount > 0:
+                          r = completed[0]
+                          status_text = (r.conclusion or "completed").lower()
+                          latest_dt = r.updated_at or r.created_at
+                      else:
+                          any_runs = wf.get_runs()
+                          if any_runs.totalCount > 0:
+                              r = any_runs[0]
+                              status_text = (r.conclusion or r.status or "in_progress").lower()
+                              latest_dt = r.updated_at or r.created_at
+                          else:
+                              status_text = "no runs"
+                  except GithubException:
+                      status_text = "—"
+          
+                  last_str = latest_dt.strftime("%Y-%m-%d %H:%M:%S") if latest_dt else "—"
+                  rows.append((latest_dt, f"[{repo.name}]({repo.html_url})", wf.name, badge_for(status_text), last_str))
+          
+          # Sortierung: Neueste Runs zuerst, leere nach unten
+          rows.sort(key=lambda x: (x[0] is None, x[0]), reverse=True)
+          
+          for _, repo_md, wf_name, badge, last_str in rows:
+              dashboard += f"| {repo_md} | {wf_name} | {badge} | {last_str} |\n"
+          
+          dashboard += f"\n\n*Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')}*"
+          
+          settings_repo = g.get_repo(f"{org_name}/.github")
           contents = settings_repo.get_contents("profile/README.md")
           settings_repo.update_file(contents.path, "Update dashboard", dashboard, contents.sha)
-
+          
           print("Dashboard updated successfully!")
           EOF

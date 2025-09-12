@@ -30,6 +30,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
           ORGANIZATION_NAME: Accessful-AI
+          PINNED_REPOS: e2e-suite
         run: |
           python - <<EOF
           import os

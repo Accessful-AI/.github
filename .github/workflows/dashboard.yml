@@ -34,11 +34,23 @@ jobs:
         run: |
           python - <<EOF
           import os
-          from github import Github, GithubException
           from datetime import datetime
+          from github import Github, GithubException, Auth
+
+          token = os.environ.get('GITHUB_TOKEN')
+          if not token or token.strip() == "":
+              raise RuntimeError("Env GITHUB_TOKEN ist leer oder fehlt. Bitte Secrets prüfen (DASHBOARD_TOKEN).")
           
-          g = Github(os.environ['GITHUB_TOKEN'])
-          org_name = os.environ['ORGANIZATION_NAME']
+          g = Github(auth=Auth.Token(token))
+          try:
+              org = g.get_organization(org_name)
+          except GithubException as e:
+              # Hilfreiche Diagnose
+              raise RuntimeError(
+                  f"GitHub Zugriff fehlgeschlagen: {e.status} – "
+                  f"Prüfe Token/Scopes/SSO. Token-Owner muss Zugriff auf Org '{org_name}' haben."
+              )
+
           pinned = [r.strip() for r in os.environ.get('PINNED_REPOS', '').split(',') if r.strip()]
           
           org = g.get_organization(org_name)

@@ -10,11 +10,11 @@
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | E2E Tests from Other Repositories | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [k3s-apps](https://github.com/Accessful-AI/k3s-apps) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-17 03:13:10 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-17 03:12:20 |
-| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2025-09-15 22:51:07 |
-| [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2025-09-15 22:49:51 |
-| [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2025-09-15 15:01:35 |
+| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-17 08:17:12 |
+| [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-17 08:17:01 |
+| [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-17 08:15:14 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-17 06:06:21 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-17 06:05:33 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-15 12:22:16 |
 | [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | Python CI with Docker | ![Failure](https://img.shields.io/badge/Failure-red) | 2025-09-15 11:37:52 |
 | [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-09-12 23:04:22 |
@@ -28,4 +28,4 @@
 | [accessful-pdfua-service](https://github.com/Accessful-AI/accessful-pdfua-service) | Gradle Package | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-06-27 16:09:22 |
 
 
-*Last updated: 2025-09-17 06:05:28*
+*Last updated: 2025-09-17 09:04:44*

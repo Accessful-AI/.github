@@ -3,7 +3,7 @@ name: Update Dashboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'  # Alle 3 Stunden (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */12 * * *'  # Alle 3 Stunden (00:00, 06:00, 12:00, 18:00 UTC)
 
 jobs:
   update-dashboard:

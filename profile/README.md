@@ -11,10 +11,10 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | E2E Tests from Other Repositories | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [k3s-apps](https://github.com/Accessful-AI/k3s-apps) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-18 12:08:20 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-18 12:07:28 |
 | [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | Python CI with Docker | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-18 11:42:11 |
 | [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-18 11:22:14 |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-18 00:17:06 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-18 00:16:24 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-17 20:54:20 |
 | [accessful-codex](https://github.com/Accessful-AI/accessful-codex) | Java Build | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2025-10-17 05:24:47 |
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
@@ -29,4 +29,4 @@
 | [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | Java CI & Docker for accessful-language-service | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-06 16:13:35 |
 
 
-*Last updated: 2025-10-18 12:07:23*
+*Last updated: 2025-10-19 00:19:44*

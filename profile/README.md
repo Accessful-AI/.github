@@ -12,9 +12,9 @@
 | [k3s-apps](https://github.com/Accessful-AI/k3s-apps) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-20 12:09:32 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-20 12:08:44 |
 | [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-20 08:10:22 |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-20 00:19:40 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-20 00:18:36 |
 | [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-11 09:00:46 |
 | [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-11 09:00:01 |
 | [accessful-pdfua-service](https://github.com/Accessful-AI/accessful-pdfua-service) | Gradle Package | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-11-11 08:58:42 |
@@ -30,4 +30,4 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2025-11-20 12:08:39*
+*Last updated: 2025-11-21 00:18:14*

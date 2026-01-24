@@ -11,10 +11,10 @@
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-platform-iac](https://github.com/Accessful-AI/accessful-platform-iac) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
-| [demo-repository](https://github.com/Accessful-AI/demo-repository) | Build and Deploy to Kubernetes | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-23 11:42:09 |
+| [demo-repository](https://github.com/Accessful-AI/demo-repository) | Build and Deploy to Kubernetes | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-23 13:16:53 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-23 12:09:34 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-23 12:08:54 |
 | [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-23 10:15:38 |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-23 07:51:13 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-23 00:20:52 |
 | [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-22 14:47:08 |
 | [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | Python CI with Docker | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-01-20 10:03:06 |
 | [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-01-19 14:22:14 |
@@ -30,4 +30,4 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2026-01-23 12:08:50*
+*Last updated: 2026-01-24 00:19:42*

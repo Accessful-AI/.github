@@ -11,8 +11,9 @@
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-platform-iac](https://github.com/Accessful-AI/accessful-platform-iac) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-01 00:27:52 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-01 00:27:07 |
+| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-01 20:30:11 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-01 12:09:47 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-01 12:09:06 |
 | [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-02-24 09:29:17 |
 | [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-02-24 09:27:49 |
 | [accessful-pdfua-service](https://github.com/Accessful-AI/accessful-pdfua-service) | Gradle Package | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-02-24 09:27:43 |
@@ -26,8 +27,7 @@
 | [accessful-auth-service](https://github.com/Accessful-AI/accessful-auth-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-02-23 02:36:24 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-02-19 17:23:58 |
 | [demo-repository](https://github.com/Accessful-AI/demo-repository) | Build and Deploy to Kubernetes | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-02-16 19:33:43 |
-| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-02-15 20:24:15 |
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2026-03-01 12:09:02*
+*Last updated: 2026-03-02 00:24:19*

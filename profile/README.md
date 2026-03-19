@@ -13,10 +13,10 @@
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-platform-iac](https://github.com/Accessful-AI/accessful-platform-iac) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-report-service](https://github.com/Accessful-AI/accessful-report-service) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
+| [accessful-codex](https://github.com/Accessful-AI/accessful-codex) | Java Build | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-19 05:20:10 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-19 00:27:47 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-19 00:27:00 |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | CI | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-18 18:11:29 |
-| [accessful-codex](https://github.com/Accessful-AI/accessful-codex) | Java Build | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-18 17:32:40 |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-18 12:19:43 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-18 12:18:59 |
 | [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-17 17:30:17 |
 | [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-17 17:29:56 |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude PR Reviewer | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-15 20:23:05 |
@@ -35,4 +35,4 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2026-03-19 00:26:55*
+*Last updated: 2026-03-19 12:13:53*

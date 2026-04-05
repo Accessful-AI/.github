@@ -10,33 +10,33 @@
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-scan](https://github.com/Accessful-AI/accessful-scan) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 00:27:20 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 00:26:43 |
-| [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-03 17:46:34 |
-| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-04-02 18:04:32 |
+| [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 17:45:14 |
+| [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 17:17:25 |
+| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-04-04 16:43:08 |
+| [accessful-discovery-service](https://github.com/Accessful-AI/accessful-discovery-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 16:35:36 |
+| [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 16:32:14 |
+| [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-04-04 16:29:08 |
+| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 16:28:51 |
+| [accessful-auth-service](https://github.com/Accessful-AI/accessful-auth-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-04-04 16:28:24 |
+| [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 16:27:57 |
+| [accessful-codex](https://github.com/Accessful-AI/accessful-codex) | Java Build | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 16:26:10 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 12:13:20 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-04 12:12:44 |
 | [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-02 17:56:40 |
 | [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | Build and Deploy to Kubernetes | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-02 15:22:02 |
 | [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | Unit Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-02 15:02:02 |
-| [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-02 13:56:39 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Node.js CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-02 13:52:29 |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-04-01 20:00:14 |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude Code Review | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-31 22:55:22 |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude PR Reviewer | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-31 22:55:20 |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude Issue Fixer | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-31 19:30:43 |
 | [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude Code | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-31 19:30:16 |
-| [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 23:10:36 |
 | [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 22:52:12 |
-| [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-30 22:06:20 |
 | [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | Java CI & Docker for accessful-language-service | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 20:20:21 |
-| [accessful-discovery-service](https://github.com/Accessful-AI/accessful-discovery-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 18:20:11 |
 | [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 13:20:09 |
 | [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 11:32:30 |
 | [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 04:24:13 |
 | [accessful-auth-service](https://github.com/Accessful-AI/accessful-auth-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-03-30 02:35:37 |
-| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-28 16:43:28 |
-| [accessful-auth-service](https://github.com/Accessful-AI/accessful-auth-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-28 16:42:26 |
-| [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-28 16:41:50 |
-| [accessful-codex](https://github.com/Accessful-AI/accessful-codex) | Java Build | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-27 21:50:35 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | K3s Build & Push | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-27 12:49:28 |
 | [accessful-platform-iac](https://github.com/Accessful-AI/accessful-platform-iac) | Build & Push Keycloak Theme Image | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-03-27 10:54:35 |
 | [accessful-summary-service](https://github.com/Accessful-AI/accessful-summary-service) | Build Base Image (TeX Live + JDK 25) | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-03-26 11:56:33 |
@@ -45,4 +45,4 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2026-04-04 12:12:40*
+*Last updated: 2026-04-05 00:29:43*

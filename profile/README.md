@@ -8,9 +8,9 @@
 | [k3s-apps](https://github.com/Accessful-AI/k3s-apps) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-22 12:53:09 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-22 12:52:17 |
 | [accessful-scan](https://github.com/Accessful-AI/accessful-scan) | Build and Deploy to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-22 12:19:37 |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-22 07:51:19 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-22 00:44:31 |
 | [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-21 20:36:44 |
 | [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-21 14:15:42 |
 | [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-21 14:13:51 |
@@ -45,4 +45,4 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2026-05-22 12:52:12*
+*Last updated: 2026-05-23 00:43:37*

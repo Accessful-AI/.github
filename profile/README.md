@@ -8,21 +8,21 @@
 | [k3s-apps](https://github.com/Accessful-AI/k3s-apps) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-27 13:13:34 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-27 13:12:42 |
-| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-27 10:38:22 |
+| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-28 12:00:15 |
+| [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-28 11:58:17 |
+| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-28 11:44:48 |
+| [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-28 11:05:02 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-28 00:42:29 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-28 00:41:47 |
 | [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | Java CI with Gradle | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-27 09:50:38 |
-| [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-27 09:34:40 |
 | [accessful-scan](https://github.com/Accessful-AI/accessful-scan) | Build and Deploy to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-22 12:19:37 |
 | [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-21 20:36:44 |
-| [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-21 14:15:42 |
 | [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-21 14:13:51 |
 | [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-05-19 08:30:40 |
 | [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-05-19 07:46:26 |
 | [accessful-discovery-service](https://github.com/Accessful-AI/accessful-discovery-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-05-19 02:24:29 |
 | [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-05-18 20:00:39 |
 | [accessful-api-documentation](https://github.com/Accessful-AI/accessful-api-documentation) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-18 16:18:19 |
-| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-05-18 12:57:42 |
 | [accessful-auth-service](https://github.com/Accessful-AI/accessful-auth-service) | K3s Build & Push to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-18 12:57:04 |
 | [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | K3s Build & Push to Harbor | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-05-18 12:57:03 |
 | [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | Java CI with Gradle | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-05-18 05:05:04 |
@@ -45,4 +45,4 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2026-05-28 00:41:43*
+*Last updated: 2026-05-28 13:17:02*

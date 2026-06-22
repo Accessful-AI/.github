@@ -8,9 +8,11 @@
 | [k3s-apps](https://github.com/Accessful-AI/k3s-apps) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
 | [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | — | ![No Runs](https://img.shields.io/badge/No%20Runs-grey) | — |
-| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-21 00:53:22 |
-| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-21 00:52:45 |
-| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-20 21:43:49 |
+| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | CI | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-21 20:23:53 |
+| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude Code Review | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-06-21 20:22:48 |
+| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude PR Reviewer | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-06-21 20:22:48 |
+| [.github](https://github.com/Accessful-AI/.github) | CodeQL | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-21 12:43:44 |
+| [.github](https://github.com/Accessful-AI/.github) | Update Dashboard | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-21 12:43:04 |
 | [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | Build and Deploy to Kubernetes | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-19 10:14:35 |
 | [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | Unit Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-19 09:59:14 |
 | [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-17 23:44:23 |
@@ -34,8 +36,6 @@
 | [accessful-scan](https://github.com/Accessful-AI/accessful-scan) | Build and Deploy to Harbor | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-11 09:42:13 |
 | [accessful-api-documentation](https://github.com/Accessful-AI/accessful-api-documentation) | Build & Deploy | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-09 19:06:35 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | Build & Deploy to k3s | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-06-05 10:51:58 |
-| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude PR Reviewer | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-06-05 10:17:30 |
-| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | Claude Code Review | ![Failure](https://img.shields.io/badge/Failure-red) | 2026-06-05 10:17:25 |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | K3s Build & Push | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-15 11:29:33 |
 | [demo-repository](https://github.com/Accessful-AI/demo-repository) | Build and Deploy to Kubernetes | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2026-05-15 11:02:23 |
 | [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | Java CI & Docker for accessful-language-service | ![Skipped](https://img.shields.io/badge/Skipped-yellow) | 2026-04-13 20:10:11 |
@@ -45,4 +45,4 @@
 | [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | CI Optimized E2E Tests | ![Success](https://img.shields.io/badge/Success-brightgreen) | 2025-10-16 05:39:31 |
 
 
-*Last updated: 2026-06-21 12:42:57*
+*Last updated: 2026-06-22 00:52:10*

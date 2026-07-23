@@ -25,12 +25,9 @@
 | [accessful-platform-iac](https://github.com/Accessful-AI/accessful-platform-iac) | 🟢 Passing | ✅ 1 ⬜ 1 | 8d ago |
 | [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | 🟢 Passing | ✅ 2 | 3w ago |
 | [accessful-starter](https://github.com/Accessful-AI/accessful-starter) | ⬜ No runs | — | — |
-| [demo-repository](https://github.com/Accessful-AI/demo-repository) | 🟢 Passing | ✅ 1 | 2mo ago |
 | [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | ⏭️ Skipped | ⏭️ 1 | 3mo ago |
 | [accessful-summary-service](https://github.com/Accessful-AI/accessful-summary-service) | 🔴 Failing | ❌ 2 | 3mo ago |
-| [accessful-iac](https://github.com/Accessful-AI/accessful-iac) | ⬜ No runs | — | — |
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | ⬜ No runs | — | — |
-| [accessful-code-examples](https://github.com/Accessful-AI/accessful-code-examples) | ⬜ No runs | — | — |
 | [k3s-apps](https://github.com/Accessful-AI/k3s-apps) | ⬜ No runs | — | — |
 
 ## 🔎 Workflow details

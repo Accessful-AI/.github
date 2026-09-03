@@ -21,12 +21,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      # Preferred: a GitHub App installed on the org. Its installation token is
-      # minted fresh on every run and expires after 1h, so nothing to rotate.
-      # Enabled as soon as the repository variable DASHBOARD_APP_ID exists.
+      # A GitHub App installed on the org. Its installation token is minted
+      # fresh on every run and expires after 1h, so there is nothing to rotate.
       - name: Mint GitHub App token
         id: app-token
-        if: vars.DASHBOARD_APP_ID != ''
         uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ vars.DASHBOARD_APP_ID }}
@@ -36,17 +34,12 @@ jobs:
 
       - name: Verify read token
         env:
-          # App token when configured, otherwise the legacy PAT.
-          GH_TOKEN: ${{ steps.app-token.outputs.token || secrets.DASHBOARD_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ORGANIZATION_NAME: Accessful-AI
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "::error::No read token available. Set up the GitHub App (variable DASHBOARD_APP_ID + secret DASHBOARD_APP_PRIVATE_KEY) or the DASHBOARD_TOKEN secret."
-            exit 1
-          fi
           # Checks validity *and* scope: this is the call the generator starts with.
           if ! gh api "orgs/$ORGANIZATION_NAME/repos?per_page=1" --jq 'length'; then
-            echo "::error::Token is invalid, expired, or lacks read access to $ORGANIZATION_NAME. Re-check the GitHub App installation, or renew DASHBOARD_TOKEN."
+            echo "::error::App token cannot read $ORGANIZATION_NAME. Check that the App is still installed on the org with 'Actions: read' and access to all repositories."
             exit 1
           fi
 
@@ -54,7 +47,7 @@ jobs:
         env:
           # Needs read access to the org's repos + their Actions runs.
           # The default GITHUB_TOKEN cannot read sibling repositories.
-          GH_TOKEN: ${{ steps.app-token.outputs.token || secrets.DASHBOARD_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           ORGANIZATION_NAME: Accessful-AI
           PINNED_REPOS: e2e-suite
           OUTPUT: profile/README.md

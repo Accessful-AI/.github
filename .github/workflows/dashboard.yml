@@ -16,18 +16,45 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Checkout and push use the built-in GITHUB_TOKEN (contents: write above).
+      # It never expires, so a stale read token cannot break the checkout.
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+
+      # Preferred: a GitHub App installed on the org. Its installation token is
+      # minted fresh on every run and expires after 1h, so nothing to rotate.
+      # Enabled as soon as the repository variable DASHBOARD_APP_ID exists.
+      - name: Mint GitHub App token
+        id: app-token
+        if: vars.DASHBOARD_APP_ID != ''
+        uses: actions/create-github-app-token@v2
         with:
-          # Use the PAT so the follow-up push has the same rights that have been
-          # writing this file all along (works even with branch protection).
-          token: ${{ secrets.DASHBOARD_TOKEN }}
+          app-id: ${{ vars.DASHBOARD_APP_ID }}
+          private-key: ${{ secrets.DASHBOARD_APP_PRIVATE_KEY }}
+          # Token covers every repo the App is installed on, not just this one.
+          owner: ${{ github.repository_owner }}
+
+      - name: Verify read token
+        env:
+          # App token when configured, otherwise the legacy PAT.
+          GH_TOKEN: ${{ steps.app-token.outputs.token || secrets.DASHBOARD_TOKEN }}
+          ORGANIZATION_NAME: Accessful-AI
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::No read token available. Set up the GitHub App (variable DASHBOARD_APP_ID + secret DASHBOARD_APP_PRIVATE_KEY) or the DASHBOARD_TOKEN secret."
+            exit 1
+          fi
+          # Checks validity *and* scope: this is the call the generator starts with.
+          if ! gh api "orgs/$ORGANIZATION_NAME/repos?per_page=1" --jq 'length'; then
+            echo "::error::Token is invalid, expired, or lacks read access to $ORGANIZATION_NAME. Re-check the GitHub App installation, or renew DASHBOARD_TOKEN."
+            exit 1
+          fi
 
       - name: Generate dashboard
         env:
-          # PAT with read access to the org's private repos (repo + read:org).
+          # Needs read access to the org's repos + their Actions runs.
           # The default GITHUB_TOKEN cannot read sibling repositories.
-          GH_TOKEN: ${{ secrets.DASHBOARD_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token || secrets.DASHBOARD_TOKEN }}
           ORGANIZATION_NAME: Accessful-AI
           PINNED_REPOS: e2e-suite
           OUTPUT: profile/README.md

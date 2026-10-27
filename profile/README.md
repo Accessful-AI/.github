@@ -1,30 +1,30 @@
 # 📊 Accessful-AI · CI/CD Dashboard
 
-![Repos](https://img.shields.io/badge/Repos-25-blue?style=flat-square) ![Passing](https://img.shields.io/badge/Passing-17-brightgreen?style=flat-square) ![Failing](https://img.shields.io/badge/Failing-3-red?style=flat-square) ![Running](https://img.shields.io/badge/Running-1-yellow?style=flat-square) ![No Runs](https://img.shields.io/badge/No%20Runs-2-lightgrey?style=flat-square)
+![Repos](https://img.shields.io/badge/Repos-25-blue?style=flat-square) ![Passing](https://img.shields.io/badge/Passing-18-brightgreen?style=flat-square) ![Failing](https://img.shields.io/badge/Failing-3-red?style=flat-square) ![Running](https://img.shields.io/badge/Running-1-yellow?style=flat-square) ![No Runs](https://img.shields.io/badge/No%20Runs-2-lightgrey?style=flat-square)
 
 | Repository | Status | Workflows | Last activity |
 | --- | --- | --- | --- |
-| 📌 [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | 🟢 Passing | ✅ 1 ⬜ 1 | 6d ago |
+| 📌 [e2e-suite](https://github.com/Accessful-AI/e2e-suite) | 🟢 Passing | ✅ 1 ⬜ 1 | 7d ago |
 | [.github](https://github.com/Accessful-AI/.github) | 🟡 Running | 🟡 1 ✅ 1 | just now |
-| [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | ⏭️ Skipped | ⏭️ 1 | 8h ago |
-| [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | 🟢 Passing | ✅ 3 | 9h ago |
-| [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | 🟢 Passing | ✅ 3 | 10h ago |
-| [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | 🟢 Passing | ✅ 2 | 10h ago |
-| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | 🟢 Passing | ✅ 5 | 10h ago |
-| [accessful-platform-iac](https://github.com/Accessful-AI/accessful-platform-iac) | 🟢 Passing | ✅ 2 ⬜ 1 | 10h ago |
-| [accessful-auth-service](https://github.com/Accessful-AI/accessful-auth-service) | 🟢 Passing | ✅ 2 | 10h ago |
-| [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | 🟢 Passing | ✅ 3 | 10h ago |
-| [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | 🟢 Passing | ✅ 2 | 10h ago |
-| [accessful-website](https://github.com/Accessful-AI/accessful-website) | 🟢 Passing | ✅ 3 | 14h ago |
-| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | 🔴 Failing | ✅ 3 ⏭️ 3 ❌ 1 | 17h ago |
-| [keystone](https://github.com/Accessful-AI/keystone) | 🔴 Failing | ❌ 1 ✅ 1 🚫 1 ⏭️ 1 | 17h ago |
-| [accessful-mcp-service](https://github.com/Accessful-AI/accessful-mcp-service) | 🟢 Passing | ✅ 1 | 21h ago |
-| [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | ⏭️ Skipped | ⏭️ 1 | 22h ago |
-| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | 🟢 Passing | ✅ 1 ⏭️ 1 | 22h ago |
-| [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | 🟢 Passing | ✅ 1 ⏭️ 1 | 22h ago |
-| [accessful-discovery-service](https://github.com/Accessful-AI/accessful-discovery-service) | 🟢 Passing | ✅ 1 | 2d ago |
-| [accessful-api-documentation](https://github.com/Accessful-AI/accessful-api-documentation) | 🟢 Passing | ✅ 1 | 10d ago |
-| [accessful-truetag](https://github.com/Accessful-AI/accessful-truetag) | 🟢 Passing | ✅ 2 | 3w ago |
+| [accessful-truetag](https://github.com/Accessful-AI/accessful-truetag) | 🟢 Passing | ✅ 2 | 10m ago |
+| [accessful-discovery-service](https://github.com/Accessful-AI/accessful-discovery-service) | 🟢 Passing | ✅ 1 | 3h ago |
+| [accessful-resolver-service](https://github.com/Accessful-AI/accessful-resolver-service) | 🟢 Passing | ✅ 1 ⏭️ 1 | 7h ago |
+| [accessful-finance-service](https://github.com/Accessful-AI/accessful-finance-service) | 🟢 Passing | ✅ 3 | 7h ago |
+| [accessful-gateway-service](https://github.com/Accessful-AI/accessful-gateway-service) | 🟢 Passing | ✅ 1 | 7h ago |
+| [accessful-pdf-analyzer-service](https://github.com/Accessful-AI/accessful-pdf-analyzer-service) | 🟢 Passing | ✅ 2 | 7h ago |
+| [accessful-language-service](https://github.com/Accessful-AI/accessful-language-service) | ⏭️ Skipped | ⏭️ 1 | 22h ago |
+| [accessful-ui](https://github.com/Accessful-AI/accessful-ui) | 🟢 Passing | ✅ 3 | 23h ago |
+| [accessful-mind](https://github.com/Accessful-AI/accessful-mind) | 🟢 Passing | ✅ 2 | 23h ago |
+| [accessful-pdf-upload-service](https://github.com/Accessful-AI/accessful-pdf-upload-service) | 🟢 Passing | ✅ 5 | 23h ago |
+| [accessful-platform-iac](https://github.com/Accessful-AI/accessful-platform-iac) | 🟢 Passing | ✅ 2 ⬜ 1 | 23h ago |
+| [accessful-auth-service](https://github.com/Accessful-AI/accessful-auth-service) | 🟢 Passing | ✅ 2 | 23h ago |
+| [accessful-ai-resolver](https://github.com/Accessful-AI/accessful-ai-resolver) | 🟢 Passing | ✅ 3 | 23h ago |
+| [accessful-notification-service](https://github.com/Accessful-AI/accessful-notification-service) | 🟢 Passing | ✅ 2 | 23h ago |
+| [accessful-website](https://github.com/Accessful-AI/accessful-website) | 🟢 Passing | ✅ 3 | 1d ago |
+| [accessful-uaudit](https://github.com/Accessful-AI/accessful-uaudit) | 🔴 Failing | ✅ 3 ⏭️ 3 ❌ 1 | 1d ago |
+| [keystone](https://github.com/Accessful-AI/keystone) | 🔴 Failing | ❌ 1 ✅ 1 🚫 1 ⏭️ 1 | 1d ago |
+| [accessful-mcp-service](https://github.com/Accessful-AI/accessful-mcp-service) | 🟢 Passing | ✅ 1 | 1d ago |
+| [accessful-api-documentation](https://github.com/Accessful-AI/accessful-api-documentation) | 🟢 Passing | ✅ 1 | 11d ago |
 | [accessful-scan](https://github.com/Accessful-AI/accessful-scan) | 🟢 Passing | ✅ 1 | 5w ago |
 | [accessful-dataset](https://github.com/Accessful-AI/accessful-dataset) | ⬜ No runs | — | — |
 | [accessful-starter](https://github.com/Accessful-AI/accessful-starter) | ⬜ No runs | — | — |
@@ -33,7 +33,7 @@
 ## 🔎 Workflow details
 
 <details>
-<summary>🟢 📌 <b>e2e-suite</b> · 2 workflows · updated 6d ago</summary>
+<summary>🟢 📌 <b>e2e-suite</b> · 2 workflows · updated 7d ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -47,13 +47,72 @@
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
-| [Update Dashboard](https://github.com/Accessful-AI/.github/actions/runs/40444879379) | 🟡 in progress | 2026-10-27 03:34 UTC |
-| [CodeQL](https://github.com/Accessful-AI/.github/actions/runs/40375531472) | ✅ success | 2026-10-26 18:12 UTC |
+| [Update Dashboard](https://github.com/Accessful-AI/.github/actions/runs/40550189309) | 🟡 in progress | 2026-10-27 17:23 UTC |
+| [CodeQL](https://github.com/Accessful-AI/.github/actions/runs/40445006373) | ✅ success | 2026-10-27 03:36 UTC |
 
 </details>
 
 <details>
-<summary>⏭️ <b>accessful-language-service</b> · 1 workflow · updated 8h ago</summary>
+<summary>🟢 <b>accessful-truetag</b> · 2 workflows · updated 10m ago</summary>
+
+| Workflow | Status | Last run |
+| --- | --- | --- |
+| [ci](https://github.com/Accessful-AI/accessful-truetag/actions/runs/40542642616) | ✅ success | 2026-10-27 17:13 UTC |
+| [sandbox-host-probe](https://github.com/Accessful-AI/accessful-truetag/actions/runs/33792033389) | ✅ success | 2026-09-03 18:43 UTC |
+
+</details>
+
+<details>
+<summary>🟢 <b>accessful-discovery-service</b> · 1 workflow · updated 3h ago</summary>
+
+| Workflow | Status | Last run |
+| --- | --- | --- |
+| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-discovery-service/actions/runs/40513705185) | ✅ success | 2026-10-27 13:39 UTC |
+
+</details>
+
+<details>
+<summary>🟢 <b>accessful-resolver-service</b> · 2 workflows · updated 7h ago</summary>
+
+| Workflow | Status | Last run |
+| --- | --- | --- |
+| [K3s Build & Push to Harbor](https://github.com/Accessful-AI/accessful-resolver-service/actions/runs/40486533828) | ✅ success | 2026-10-27 10:15 UTC |
+| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-resolver-service/actions/runs/40273084292) | ⏭️ skipped | 2026-10-26 05:13 UTC |
+
+</details>
+
+<details>
+<summary>🟢 <b>accessful-finance-service</b> · 3 workflows · updated 7h ago</summary>
+
+| Workflow | Status | Last run |
+| --- | --- | --- |
+| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-finance-service/actions/runs/40486571213) | ✅ success | 2026-10-27 10:14 UTC |
+| [Secret Scan](https://github.com/Accessful-AI/accessful-finance-service/actions/runs/40486571128) | ✅ success | 2026-10-27 10:11 UTC |
+| [K3s Build & Push to Harbor](https://github.com/Accessful-AI/accessful-finance-service/actions/runs/40186910623) | ✅ success | 2026-10-25 11:01 UTC |
+
+</details>
+
+<details>
+<summary>🟢 <b>accessful-gateway-service</b> · 1 workflow · updated 7h ago</summary>
+
+| Workflow | Status | Last run |
+| --- | --- | --- |
+| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-gateway-service/actions/runs/40486501979) | ✅ success | 2026-10-27 10:12 UTC |
+
+</details>
+
+<details>
+<summary>🟢 <b>accessful-pdf-analyzer-service</b> · 2 workflows · updated 7h ago</summary>
+
+| Workflow | Status | Last run |
+| --- | --- | --- |
+| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-pdf-analyzer-service/actions/runs/40483915296) | ✅ success | 2026-10-27 09:54 UTC |
+| [K3s Build & Push to Harbor](https://github.com/Accessful-AI/accessful-pdf-analyzer-service/actions/runs/37452794337) | ✅ success | 2026-10-06 10:58 UTC |
+
+</details>
+
+<details>
+<summary>⏭️ <b>accessful-language-service</b> · 1 workflow · updated 22h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -62,7 +121,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-ui</b> · 3 workflows · updated 9h ago</summary>
+<summary>🟢 <b>accessful-ui</b> · 3 workflows · updated 23h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -73,18 +132,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-finance-service</b> · 3 workflows · updated 10h ago</summary>
-
-| Workflow | Status | Last run |
-| --- | --- | --- |
-| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-finance-service/actions/runs/40368563718) | ✅ success | 2026-10-26 17:29 UTC |
-| [Secret Scan](https://github.com/Accessful-AI/accessful-finance-service/actions/runs/40368569156) | ✅ success | 2026-10-26 17:26 UTC |
-| [K3s Build & Push to Harbor](https://github.com/Accessful-AI/accessful-finance-service/actions/runs/40186910623) | ✅ success | 2026-10-25 11:01 UTC |
-
-</details>
-
-<details>
-<summary>🟢 <b>accessful-mind</b> · 2 workflows · updated 10h ago</summary>
+<summary>🟢 <b>accessful-mind</b> · 2 workflows · updated 23h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -94,7 +142,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-pdf-upload-service</b> · 5 workflows · updated 10h ago</summary>
+<summary>🟢 <b>accessful-pdf-upload-service</b> · 5 workflows · updated 23h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -107,7 +155,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-platform-iac</b> · 3 workflows · updated 10h ago</summary>
+<summary>🟢 <b>accessful-platform-iac</b> · 3 workflows · updated 23h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -118,7 +166,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-auth-service</b> · 2 workflows · updated 10h ago</summary>
+<summary>🟢 <b>accessful-auth-service</b> · 2 workflows · updated 23h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -128,7 +176,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-ai-resolver</b> · 3 workflows · updated 10h ago</summary>
+<summary>🟢 <b>accessful-ai-resolver</b> · 3 workflows · updated 23h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -139,7 +187,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-notification-service</b> · 2 workflows · updated 10h ago</summary>
+<summary>🟢 <b>accessful-notification-service</b> · 2 workflows · updated 23h ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -149,7 +197,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-website</b> · 3 workflows · updated 14h ago</summary>
+<summary>🟢 <b>accessful-website</b> · 3 workflows · updated 1d ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -160,7 +208,7 @@
 </details>
 
 <details>
-<summary>🔴 <b>accessful-uaudit</b> · 7 workflows · updated 17h ago</summary>
+<summary>🔴 <b>accessful-uaudit</b> · 7 workflows · updated 1d ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -175,7 +223,7 @@
 </details>
 
 <details>
-<summary>🔴 <b>keystone</b> · 4 workflows · updated 17h ago</summary>
+<summary>🔴 <b>keystone</b> · 4 workflows · updated 1d ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -187,7 +235,7 @@
 </details>
 
 <details>
-<summary>🟢 <b>accessful-mcp-service</b> · 1 workflow · updated 21h ago</summary>
+<summary>🟢 <b>accessful-mcp-service</b> · 1 workflow · updated 1d ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
@@ -196,59 +244,11 @@
 </details>
 
 <details>
-<summary>⏭️ <b>accessful-gateway-service</b> · 1 workflow · updated 22h ago</summary>
-
-| Workflow | Status | Last run |
-| --- | --- | --- |
-| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-gateway-service/actions/runs/40273093993) | ⏭️ skipped | 2026-10-26 05:13 UTC |
-
-</details>
-
-<details>
-<summary>🟢 <b>accessful-pdf-analyzer-service</b> · 2 workflows · updated 22h ago</summary>
-
-| Workflow | Status | Last run |
-| --- | --- | --- |
-| [K3s Build & Push to Harbor](https://github.com/Accessful-AI/accessful-pdf-analyzer-service/actions/runs/37452794337) | ✅ success | 2026-10-06 10:58 UTC |
-| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-pdf-analyzer-service/actions/runs/40273097013) | ⏭️ skipped | 2026-10-26 05:13 UTC |
-
-</details>
-
-<details>
-<summary>🟢 <b>accessful-resolver-service</b> · 2 workflows · updated 22h ago</summary>
-
-| Workflow | Status | Last run |
-| --- | --- | --- |
-| [K3s Build & Push to Harbor](https://github.com/Accessful-AI/accessful-resolver-service/actions/runs/40124842151) | ✅ success | 2026-10-24 19:24 UTC |
-| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-resolver-service/actions/runs/40273084292) | ⏭️ skipped | 2026-10-26 05:13 UTC |
-
-</details>
-
-<details>
-<summary>🟢 <b>accessful-discovery-service</b> · 1 workflow · updated 2d ago</summary>
-
-| Workflow | Status | Last run |
-| --- | --- | --- |
-| [Java CI with Gradle](https://github.com/Accessful-AI/accessful-discovery-service/actions/runs/40088908210) | ✅ success | 2026-10-24 11:14 UTC |
-
-</details>
-
-<details>
-<summary>🟢 <b>accessful-api-documentation</b> · 1 workflow · updated 10d ago</summary>
+<summary>🟢 <b>accessful-api-documentation</b> · 1 workflow · updated 11d ago</summary>
 
 | Workflow | Status | Last run |
 | --- | --- | --- |
 | [Build & Deploy](https://github.com/Accessful-AI/accessful-api-documentation/actions/runs/38864411643) | ✅ success | 2026-10-16 07:01 UTC |
-
-</details>
-
-<details>
-<summary>🟢 <b>accessful-truetag</b> · 2 workflows · updated 3w ago</summary>
-
-| Workflow | Status | Last run |
-| --- | --- | --- |
-| [ci](https://github.com/Accessful-AI/accessful-truetag/actions/runs/36838446955) | ✅ success | 2026-10-01 09:20 UTC |
-| [sandbox-host-probe](https://github.com/Accessful-AI/accessful-truetag/actions/runs/33792033389) | ✅ success | 2026-09-03 18:43 UTC |
 
 </details>
 
@@ -276,4 +276,4 @@
 > Per repo the most severe workflow result determines the status. Dependabot and disabled workflows are omitted.
 
 
-*Last updated: 2026-10-27 03:34:12 UTC — auto-generated by the [Update Dashboard](https://github.com/Accessful-AI/.github/actions/workflows/dashboard.yml) workflow.*
+*Last updated: 2026-10-27 17:24:03 UTC — auto-generated by the [Update Dashboard](https://github.com/Accessful-AI/.github/actions/workflows/dashboard.yml) workflow.*
